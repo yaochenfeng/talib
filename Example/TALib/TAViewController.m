@@ -7,6 +7,7 @@
 //
 
 #import "TAViewController.h"
+#import <TALib/ta_libc.h>
 
 @interface TAViewController ()
 
@@ -18,6 +19,8 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    
 }
 
 - (void)didReceiveMemoryWarning

@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4A214DD40858C08E4F4CEF42 /* Pods_TALib_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD125F85C6A120B265546975 /* Pods_TALib_Example.framework */; };
+		0EA51407EB88095149AB215C /* Pods_TALib_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A698130593B5B7966D8FCD1 /* Pods_TALib_Tests.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -22,8 +22,8 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
+		7C3C98DDD9B579A1A5F1137D /* Pods_TALib_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59E4809CAA6FB8122395AB4D /* Pods_TALib_Example.framework */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		910431E48F6205F5DE68EB07 /* Pods_TALib_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5257EDD38EA184F195B0601 /* Pods_TALib_Tests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +40,8 @@
 		0CA1F5E87506115F0CF8979C /* Pods-TALib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TALib_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-TALib_Example/Pods-TALib_Example.release.xcconfig"; sourceTree = "<group>"; };
 		186ECEE473ACB33D83C97FF3 /* Pods-TALib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TALib_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TALib_Tests/Pods-TALib_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		239B4ECA2319BD47FE3084F9 /* Pods-TALib_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TALib_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TALib_Example/Pods-TALib_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		3A698130593B5B7966D8FCD1 /* Pods_TALib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TALib_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		59E4809CAA6FB8122395AB4D /* Pods_TALib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TALib_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* TALib_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TALib_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -64,8 +66,6 @@
 		72F571EAB72578BC40FE514F /* Pods-TALib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TALib_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TALib_Tests/Pods-TALib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8A23B4E44EB2941F095295B8 /* TALib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = TALib.podspec; path = ../TALib.podspec; sourceTree = "<group>"; };
-		DD125F85C6A120B265546975 /* Pods_TALib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TALib_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E5257EDD38EA184F195B0601 /* Pods_TALib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TALib_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F465F84D91AFE4BF7083BE34 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -77,7 +77,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				4A214DD40858C08E4F4CEF42 /* Pods_TALib_Example.framework in Frameworks */,
+				7C3C98DDD9B579A1A5F1137D /* Pods_TALib_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +88,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				910431E48F6205F5DE68EB07 /* Pods_TALib_Tests.framework in Frameworks */,
+				0EA51407EB88095149AB215C /* Pods_TALib_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -134,8 +134,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				DD125F85C6A120B265546975 /* Pods_TALib_Example.framework */,
-				E5257EDD38EA184F195B0601 /* Pods_TALib_Tests.framework */,
+				59E4809CAA6FB8122395AB4D /* Pods_TALib_Example.framework */,
+				3A698130593B5B7966D8FCD1 /* Pods_TALib_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
