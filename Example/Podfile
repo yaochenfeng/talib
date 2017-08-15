@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'TALib_Example' do
+  pod 'TALib', :path => '../'
+
+  target 'TALib_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
